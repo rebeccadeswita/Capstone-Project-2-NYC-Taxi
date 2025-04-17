@@ -76,7 +76,7 @@ Proyek ini memiliki 4 tujuan utama:
 - Rata-rata jumlah tip berdasarkan hari dan jam
 - Visualisasi heatmap untuk efisiensi pendapatan
 
-### 5. Statistik Inferensial
+### 3. Statistik Inferensial
 - Uji T: Apakah terdapat perbedaan signifikan pendapatan per menit saat akhir pekan dengan hari biasa
 - Uji ANOVA: Apakah terdapat perbedaan signifikan pendapatan per perjalanan antar hari dalam seminggu
 - Interpretasi hasil uji statistik dan signifikansinya
@@ -105,7 +105,24 @@ Proyek ini memiliki 4 tujuan utama:
 
 ## 📂 Struktur Folder
 
-Capstone-Project-2/ ├── data/ │ ├── NYC_TLC_Trip_Record.csv │ ├── taxi_zone_lookup.csv │ ├── notebooks/ │ └── Capstone_Project_2_draft.ipynb │ ├── figures/ │ └── [grafik visualisasi analisis] │ ├── README.md └── requirements.txt
+📦 NYC_Taxi_Analysis
+├── 📁 data
+│   ├── raw/                  # Original datasets 
+│   ├── cleaned/              # Data setelah dibersihkan
+│
+├── 📁 notebooks
+│   ├── Capstone Project_Module2_Data Analysis_Rebecca Deswita.ipynb
+│
+├── 📁 reports
+│   └── Capstone Project Modul 2 - Strategi Optimalisasi Pendapatan Taksi Hijau New York City Berdasarkan Zona dan Waktu_Rebecca Deswita.pdf                   
+│
+├── 📁 dashboard
+│   └── Capstone Project_Module2_Tableau Dashboard_Rebecca Deswita.twbx
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+
 
 ---
 
